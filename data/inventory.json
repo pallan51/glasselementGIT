@@ -1,0 +1,52 @@
+{
+  "eyewear": [
+    {
+      "id": "e1",
+      "brand": "Matsuda (Vintage)",
+      "model": "M3023 Refurbished",
+      "description": "A rare 1990s Japanese titanium frame, beautifully restored and fitted with premium ocean-blue CR39 lenses for unparalleled clarity.",
+      "price": "$550",
+      "image": "images/vintage_frames.png",
+      "tag": "Vintage Japanese"
+    },
+    {
+      "id": "e2",
+      "brand": "Masunaga",
+      "model": "GMS-805",
+      "description": "Classic acetate and titanium combination frame. Hand-polished and upgraded with custom amber-tinted CR39 sun lenses.",
+      "price": "$480",
+      "image": "images/vintage_frames.png",
+      "tag": "Restored"
+    }
+  ],
+  "cameras": [
+    {
+      "id": "c1",
+      "brand": "Nikon",
+      "model": "Df (Special Silver Edition)",
+      "description": "Mint condition retro-styled DSLR featuring the D4 sensor. A mechanical joy combined with modern digital performance.",
+      "price": "$1,850",
+      "image": "images/exotic_dslr.png",
+      "tag": "Rare Digital"
+    },
+    {
+      "id": "c2",
+      "brand": "Pentax",
+      "model": "K-1 Mark II (Limited Silver)",
+      "description": "An incredibly rugged, full-frame DSLR beast. Only 1,000 units ever produced globally. Field-tested in the Dolomites.",
+      "price": "$2,200",
+      "image": "images/exotic_dslr.png",
+      "tag": "Exotic DSLR"
+    }
+  ],
+  "journeys": [
+    {
+      "id": "j1",
+      "title": "Chasing Light in Hokkaido",
+      "description": "Testing the low-light capabilities of the Nikon Df alongside wintery conditions and crisp vintage optics.",
+      "date": "Feb 2026",
+      "image": "images/glass_hero.png",
+      "tag": "Journal"
+    }
+  ]
+}

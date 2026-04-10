@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Glass Element — Curated vintage Japanese eyewear fitted with premium CR39 lenses and rare exotic DSLR cameras, tested on journeys across the world.">
+    <meta property="og:title" content="The Glass Element | Optics & Exploration">
+    <meta property="og:description" content="Vintage Japanese eyewear. Exotic DSLR cameras. Field-tested on extraordinary journeys.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.theglasselement.com">
+    <title>The Glass Element | Optics &amp; Exploration</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- LD+JSON Schema for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "name": "The Glass Element",
+      "description": "Curated vintage Japanese eyewear and rare exotic DSLR cameras, field-tested on journeys around the world.",
+      "url": "https://www.theglasselement.com"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Ambient Background -->
+    <div class="ambient-background"></div>
+
+    <!-- Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">The Glass Element</div>
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#eyewear">Eyewear</a>
+                <a href="#vault">Camera Vault</a>
+                <a href="#journeys">Journeys</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-image-wrapper">
+            <img src="images/explorer_hero.png" alt="Vintage brass compass, leather journal, and optical glass lens on dark walnut" decoding="async">
+            <div class="hero-image-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-subtitle">Optics &amp; Exploration</span>
+            <h1>The Glass<br>Element</h1>
+            <p class="hero-tagline">Vintage Japanese eyewear, restored with precision.<br>Rare cameras, tested in the field.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Eyewear Section -->
+        <section id="eyewear" class="section">
+            <h2>Curated Eyewear</h2>
+            <p class="section-intro">
+                We source rare vintage frames from Japan — hand-polished, restored, and fitted with ultra-premium CR39 sun lenses. Every pair is a one-of-one.
+            </p>
+            <div class="curation-grid" id="eyewear-grid">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Camera Vault Section -->
+        <section id="vault" class="section">
+            <h2>The Camera Vault</h2>
+            <p class="section-intro">
+                Rare, exotic, and impeccably maintained DSLRs. Mechanical marvels that we take on extraordinary journeys before they find their next owner.
+            </p>
+            <div class="curation-grid" id="camera-grid">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Journeys Section -->
+        <section id="journeys" class="section">
+            <h2>Field Journeys</h2>
+            <p class="section-intro">
+                Every piece we carry is field-tested. These are the stories of optics meeting the world.
+            </p>
+            <div class="curation-grid" id="journey-grid">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="footer-logo">The Glass Element</p>
+            <p class="footer-content">Curating the world through rare optics and exotic mechanics.</p>
+            <p class="footer-copy">&copy; 2026 The Glass Element. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- App JS -->
+    <script src="data/inventory.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
